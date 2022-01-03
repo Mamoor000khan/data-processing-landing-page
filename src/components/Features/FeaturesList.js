@@ -93,7 +93,7 @@ export default function FeaturesList() {
            <img alt='' src={Lte} className={classes.img}/>
       
            <Grid className={classes.features}>
-             <Typography className={classes.heading}>Possible procured trifiling</Typography>
+             <Typography className={classes.heading} style={{fontSize:'16px'}}>Possible procured trifiling</Typography>
              <Typography className={classes.paragraph} style={{fontSize:'14px'}}>
                 We may rent part what. An concluded sportsman offending so provision 
                 mr education
