@@ -4,7 +4,7 @@ import { Base } from "./components/Base/Base";
 
 function App() {
   return (
-    <div style={{backgroundColor:' rgb(32, 11, 79) ', width:'1440px', height:'5670px', margin:'auto'}}>
+    <div style={{backgroundColor:'#1b1140',  height:'5670px', margin:'auto'}}>
           <Base/>
     </div>
   );

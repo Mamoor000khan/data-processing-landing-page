@@ -9,19 +9,17 @@ import Twitter from '../../assets/svg/Twitter.svg';
 import Facebook from '../../assets/svg/Facebook.svg';
 import FooterLink from './Footer.Link';
 
+import Classes from './Footer.module.css';
+
 const useStyles = makeStyles((theme) => ({
-  footer: {
-    maxWidth:'100%',
-    maxHeight:'500px',
-    // display:'flex',
-    // justifyContent:'center',
-  },
+ 
   container:{
     width:'984px', 
     height:'171px', 
     display:'flex',
     justifyContent: 'space-between',
     marginBottom:'115px',
+    
   },
   heading: {
     width:'35px',
@@ -55,7 +53,7 @@ export default function Footer() {
   const classes = useStyles();
 
   return (
-    <section className={classes.footer}>
+    <section className={Classes.footer}>
         {/* <img alt='' src={DOT} style={{width:'992px',height:'437px',}}/> */}
       <Grid style={{width:'1463px',height:'350px',display:'grid', justifyContent:'center'}}>
         <Grid item xs={12} className={classes.logoBox}>

@@ -50,6 +50,7 @@ export function Base() {
          <Divider />
 
          <Footer/>
+         <Divider />
 
          </div>
     )

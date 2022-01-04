@@ -8,11 +8,10 @@ import People from '../../assets/img/productImg.png';
 import Shape from '../../assets/svg/Combined Shape.svg';
 import LTE from '../../assets/features.svg/lte.svg';
 
+import  Classes  from './Product.module.css';
+
 const useStyles = makeStyles((theme) => ({
-  product: {
-    maxWidth:'100%',
-    maxHeight:'500px'
-  },
+  
  container:{
       width:'1359px',
       height:'446px',
@@ -69,7 +68,7 @@ export default function Product() {
   const classes = useStyles();
 
   return (
-    <section className={classes.product}>
+    <section className={Classes.product}>
       <Grid className={classes.container}>
         
         <Grid  style={{width:'495px', height:'446px'}}>

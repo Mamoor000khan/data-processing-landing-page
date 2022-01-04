@@ -1,30 +1,23 @@
 import React from 'react';
 
 import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
+
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import CardButton from './CardButton';
 
-import Group from '../../assets/img/cardGroup.png';
+import Classes from './Card.module.css';
 
 const useStyles = makeStyles({
-  root: {
-    maxWidth: '100%',
-    maxHeight:'400px',
-    display: 'flex',
-    justifyContent: 'flex-start',
-    marginTop:'220px',
-    backgroundColor:' rgb(32, 11, 79)',
-    marginBottom:'90px' 
-  },
+  
   container:{
      width:'940px',
-     height:'324px',
+     height:'282px',
      backgroundColor:'#3C3D7A',
      display: 'grid',
      justifyContent: 'center',
-     marginLeft:'-1765px'
+     //marginLeft:'-1765px',
+     
   },
  title: {
     width:'629px',
@@ -64,11 +57,9 @@ export default function SimpleCard() {
   const classes = useStyles();
   
 return (
-    <Card className={classes.root}>
-        <img alt='' src={Group} style={{width:'2000px', height:'400px'}}/>
-
-      <CardContent className={classes.container}>
-        <Typography className={classes.title} color="textSecondary" gutterBottom>
+    <section className={Classes.card}>
+        <CardContent className={classes.container}>
+        <Typography className={classes.title} >
         There are many reasons to get down
         </Typography>
         <Typography className={classes.text}>
@@ -81,6 +72,6 @@ return (
         </Typography>
       </CardContent>
      
-    </Card>
+    </section>
   );
 }
