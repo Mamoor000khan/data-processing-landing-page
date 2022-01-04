@@ -6,13 +6,14 @@ import { makeStyles } from '@material-ui/core/styles';
 
 import Img from '../../assets/img/content.png';
 import ContentButton from './ContentButton';
+import Classes from './content.module.css';
 
 const useStyles = makeStyles((theme) => ({
   container: {
       width:'1442px',
       height:'700px',
       display:'flex',
-      justifyContent:'center',
+      justifyContent:'end',
       alignItems:'center',
       margin:'auto',
     },
@@ -70,7 +71,7 @@ export default function Content() {
           <ContentButton/>
       </div>
 
-      <div style={{marginTop:'100px'}}>
+      <div className={Classes.img}>
          <img src={Img} alt="" style={{width:'348.5',height:'473px', }}/>
       </div>
     </section>
