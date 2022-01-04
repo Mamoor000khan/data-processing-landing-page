@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
       color:'#99EFD0',
       lineHeight:'48px',
       textAlign:'center',
-      marginBottom:'50px',
+      marginBottom:'80px',
       //letterSpacing:'3px'
    // marginTop:'12px',
     },

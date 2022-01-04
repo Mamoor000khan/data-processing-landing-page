@@ -6,14 +6,13 @@ import { makeStyles } from '@material-ui/core/styles';
 
 import Img from '../../assets/img/content.png';
 import ContentButton from './ContentButton';
-import Classes from './content.module.css';
 
 const useStyles = makeStyles((theme) => ({
-  container: {
+  content: {
       width:'1442px',
       height:'700px',
       display:'flex',
-      justifyContent:'end',
+      justifyContent:'center',
       alignItems:'center',
       margin:'auto',
     },
@@ -30,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
       fontWeight:700,
       fontSize: '42px',
       lineHeight: '50px',
-      marginBottom:'30px',
+      marginBottom:'20px',
       color:'#99EFD0',
     },
   text: {
@@ -57,7 +56,7 @@ const useStyles = makeStyles((theme) => ({
 export default function Content() {
     const classes = useStyles();
   return (
-    <section className={classes.container}>
+    <section className={classes.content}>
       <div className={classes.textContainer} >
          <Typography className={classes.heading}>
            Increase your business <b style={{color:'#F2994A'}}>traffic</b>
@@ -71,7 +70,7 @@ export default function Content() {
           <ContentButton/>
       </div>
 
-      <div className={Classes.img}>
+      <div style={{marginTop:'100px'}}>
          <img src={Img} alt="" style={{width:'348.5',height:'473px', }}/>
       </div>
     </section>

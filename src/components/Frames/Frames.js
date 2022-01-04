@@ -6,6 +6,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 import Img from '../../assets/img/card.png';
 import ContentButton from '../Content/ContentButton';
+import Classes from './Frames.module.css';
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -70,7 +71,7 @@ export default function Frames() {
           <ContentButton style={{width:'155px', height:'54px'}}/>
       </div>
 
-      <div style={{marginTop:'100px'}}>
+      <div className={Classes.img}>
          <img src={Img} alt="" style={{width:'348.5',height:'473px', }}/>
       </div>
     </section>
