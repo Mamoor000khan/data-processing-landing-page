@@ -25,6 +25,7 @@ const useStyles = makeStyles((theme) => ({
     height:56,
     backgroundColor:'#979797',
     marginLeft:'10px',
+    padding:'20px'
   },
 
   btnContainer: {

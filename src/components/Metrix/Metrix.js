@@ -23,18 +23,19 @@ const useStyles = makeStyles((theme) => ({
     },
 
   heading:{
-      width:'864px', 
+      maxWidth:'864px', 
       height:'84px',
-      fontFamily:'Inter',
-      fontSize:'46px',
+      fontFamily:'Inter',        
+      fontSize:'42px',
       fontWeight:700,
       color:'#99EFD0',
-      lineHeight:'48px',
+      lineHeight:'42px',
       textAlign:'center',
-      marginBottom:'80px',
+      marginBottom:'32px',
       //letterSpacing:'3px'
    // marginTop:'12px',
     },
+   
 
   paragraph:{
       width:'414px', 
@@ -45,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
       color:'#8476AA',
       lineHeight:'20px',
       textAlign:'center',
-      marginBottom:'55px',
+      marginBottom:'48px',
     },
 }));
 

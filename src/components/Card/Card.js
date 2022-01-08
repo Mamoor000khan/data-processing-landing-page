@@ -13,15 +13,16 @@ const useStyles = makeStyles({
   container:{
      width:'940px',
      height:'282px',
-     backgroundColor:'#3C3D7A',
+     backgroundColor:'rgba(60,62,125,100%)',
+    //  transparent:'none',
      display: 'grid',
      justifyContent: 'center',
      //marginLeft:'-1765px',
      
   },
  title: {
-    width:'629px',
-    height:'43px',
+    maxWidth:'629px',
+     height:'43px',
     fontFamily:'Ribik',
     fontWeight:600,
     fontSize:'36px',
@@ -30,8 +31,8 @@ const useStyles = makeStyles({
     color:'#F2994A',
   },
  text:{
-    width:'396px',
-    height:'44px',
+    maxWidth:'396px',
+     height:'44px',
     fontFamily:'Ribik',
     fontWeight:400,
     fontSize:'16px',
@@ -41,7 +42,7 @@ const useStyles = makeStyles({
     marginLeft: '101px',
   },
  paragraph:{
-    width:'315px',
+    maxWidth:'315px',
     height:'20px',
     fontFamily:'Ribik',
     fontWeight:400,

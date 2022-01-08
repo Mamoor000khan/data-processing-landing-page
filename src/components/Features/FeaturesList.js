@@ -106,7 +106,7 @@ export default function FeaturesList() {
       
            <Grid className={classes.features}>
               <Typography className={classes.heading}>Open game</Typography>
-              <Typography className={classes.paragraph} style={{fontSize:'14px'}}>
+              <Typography className={classes.paragraph} style={{fontSize:'13px'}}>
                 Shy merits say advice ten before lovers innate add. 
                 She cordially behaviour can attempted estimable.
               </Typography>

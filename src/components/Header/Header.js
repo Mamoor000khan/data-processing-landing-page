@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
         height:'510px',
         display:'flex',
         justifyContent:'center',
-        marginTop:'120px',
+        marginTop:'135px',
         },
 
   container:{
@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
            fontWeight:700,
            color:'#99EFD0',
            lineHeight:'50px',
-           marginBottom:'26px',
+           marginBottom:'19px',
          //marginTop:'12px',
          },
 
@@ -40,11 +40,11 @@ const useStyles = makeStyles((theme) => ({
              width:'468px', 
              height:'44px',
              fontFamily:'Inter',
-             fontSize:'18px',
+             fontSize:'17px',
              fontWeight:600,
              color:'#8476AA',
              lineHeight:'22px',
-             marginBottom:'45px',
+             marginBottom:'40px',
             },
  video:{
         width:'140px',
@@ -92,7 +92,7 @@ export default function Header() {
                     you achieve it.
                 </Typography>
 
-                 <Grid item xs={12} style={{marginBottom:'50px'}}>
+                 <Grid item xs={12} style={{marginBottom:'60px'}}>
                     <DemoButton/>
                  </Grid>
 

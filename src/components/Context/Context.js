@@ -22,12 +22,12 @@ heading:{
     width:'770px', 
     height:'100px',
     fontFamily:'Inter',
-    fontSize:'42px',
+    fontSize:'41px',
     fontWeight:700,
     color:'#99EFD0',
     lineHeight:'50px',
     textAlign:'center',
-    marginBottom:'53px',
+    marginBottom:'46px',
   },
 }));
 

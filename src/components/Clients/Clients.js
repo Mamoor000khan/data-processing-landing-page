@@ -12,13 +12,13 @@ import { Container } from '@material-ui/core';
  import Img6 from '../../assets/svg/clients(5).svg';
 
 const useStyles = makeStyles((theme) => ({
-  root: {
+  clients: {
     width:'1170px',
     height:'30px',
-    marginTop:'75px',
+    marginTop:'103px',
     display:'flex',
     justifyContent:'space-evenly',
-    marginBottom:'100px'
+    marginBottom:'98px'
   },
   
 }));
@@ -27,7 +27,7 @@ export default function Clients() {
   const classes = useStyles();
 
   return (
-    <Container className={classes.root}>
+    <Container className={classes.clients}>
       
         <Grid   style={{width:'117.19px', height:'25px'}}>
                     <img src={Img1} alt='' style={{color:'#8476AA',}}/>

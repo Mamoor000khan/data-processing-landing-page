@@ -15,6 +15,7 @@ const useStyles = makeStyles((theme) => ({
       justifyContent:'center',
       alignItems:'center',
       margin:'auto',
+      marginBottom:'196px'
     },
   textContainer: {
       width:'470px',
@@ -29,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
       fontWeight:700,
       fontSize: '42px',
       lineHeight: '50px',
-      marginBottom:'20px',
+      marginBottom:'32px',
       color:'#99EFD0',
     },
   text: {
@@ -41,7 +42,7 @@ const useStyles = makeStyles((theme) => ({
       fontWeight: 400,
       lineHeight: '28px',
       textTransform: 'none',
-      marginBottom:'75px',
+      marginBottom:'43px',
     },
   link:{
       width:'89px',

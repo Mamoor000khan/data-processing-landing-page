@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
       color:'#99EFD0',
       lineHeight:'50px',
       textAlign:'center',
-      marginBottom:'20px',
+      marginBottom:'13px',
    // marginTop:'12px',
     },
 
@@ -43,7 +43,7 @@ const useStyles = makeStyles((theme) => ({
       color:'#8476AA',
       lineHeight:'22px',
       textAlign:'center',
-      marginBottom:'55px',
+      marginBottom:'50px',
     },
 }));
 
