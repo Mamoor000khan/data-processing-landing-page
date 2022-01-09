@@ -14,11 +14,9 @@ const useStyles = makeStyles({
      width:'940px',
      height:'282px',
      backgroundColor:'rgba(60,62,125,100%)',
-    //  transparent:'none',
+     padding:'10px',
      display: 'grid',
      justifyContent: 'center',
-     //marginLeft:'-1765px',
-     
   },
  title: {
     maxWidth:'629px',

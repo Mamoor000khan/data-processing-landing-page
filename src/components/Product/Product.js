@@ -5,7 +5,7 @@ import Grid from '@material-ui/core/Grid';
 import { Typography } from '@material-ui/core';
 
 import People from '../../assets/img/productImg.png';
-import Shape from '../../assets/svg/Combined Shape.svg';
+import Swiss from '../../assets/img/swiss-knife.png';
 import LTE from '../../assets/features.svg/lte.svg';
 
 import  Classes  from './Product.module.css';
@@ -84,7 +84,7 @@ export default function Product() {
           
         <Grid style={{display: 'flex', justifyContent: 'space-between'}}>
           <Grid style={{width:'224px', height:'136px'}}>
-              <img alt='' src={Shape} style={{width:'36px', height:'36px'}}/>
+              <img alt='' src={Swiss} style={{width:'36px', height:'36px'}}/>
               <Typography className={classes.featureHeading}>Feature One</Typography>
               <Typography className={classes.featureText}>Fully customizable and neatly 
                          organized components will help you work faster 

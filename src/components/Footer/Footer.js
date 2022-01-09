@@ -53,9 +53,9 @@ export default function Footer() {
   const classes = useStyles();
 
   return (
-    <section className={Classes.footer}>
+    <footer className={Classes.footer}>
         {/* <img alt='' src={DOT} style={{width:'992px',height:'437px',}}/> */}
-      <Grid style={{width:'1463px',height:'350px',display:'grid', justifyContent:'center'}}>
+      <Grid style={{display:'grid', justifyContent:'center'}}>
         <Grid item xs={12} className={classes.logoBox}>
           <img alt='' src={Google} style={{width:'40px', height:'40px'}}/>
           <img alt='' src={Twitter} style={{width:'40px', height:'40px', marginLeft:'13px'}}/>
@@ -98,6 +98,6 @@ export default function Footer() {
        <FooterLink/>
 
       </Grid>
-    </section>
+    </footer>
   );
 }

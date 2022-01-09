@@ -3,16 +3,18 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 
-import IMG from '../../assets/img/Frame (2).png';
-import Vector from '../../assets/img/contextimg1.png';
+import IMG from '../../assets/img/contextimg.png';
+
 
 const useStyles = makeStyles((theme) => ({
   ContextImg: {
     maxWidth:'100%',
     maxHeight:'629px',
     display:'grid',
-      justifyContent:'center',
-      //marginTop:'200px',
+    justifyContent:'center',
+    marginTop:'-130px',
+    // marginLeft:'35px',
+  
   },
 }));
 

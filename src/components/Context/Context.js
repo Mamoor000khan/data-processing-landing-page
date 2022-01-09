@@ -43,6 +43,7 @@ export default function Context() {
          <GetStartedButton/>
        
         </Grid>
+        
         </Grid>
         <ContextImg/>
     </section>
