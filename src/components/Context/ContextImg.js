@@ -3,7 +3,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 
-import IMG from '../../assets/img/contextimg.png';
+import IMG from '../../assets/img/contextImg.png';
 
 
 const useStyles = makeStyles((theme) => ({
